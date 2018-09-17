@@ -120,6 +120,13 @@
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PgD-EV-BV5"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mu6-z8-qm5">
+                                <rect key="frame" x="163" y="278" width="275" height="43"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="40"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="1" green="0.18111216444763989" blue="0.28343569158000537" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -127,11 +134,13 @@
                             <constraint firstItem="vxT-4v-elw" firstAttribute="top" secondItem="rtR-I0-Kgn" secondAttribute="bottom" constant="-210" id="AP6-SE-CbH"/>
                             <constraint firstItem="xNu-tI-V98" firstAttribute="leading" secondItem="rtR-I0-Kgn" secondAttribute="trailing" constant="-97" id="CAQ-TF-4b2"/>
                             <constraint firstItem="rtR-I0-Kgn" firstAttribute="leading" secondItem="B8h-eK-EdE" secondAttribute="trailing" constant="-98" id="CWW-9D-Dw6"/>
+                            <constraint firstItem="mu6-z8-qm5" firstAttribute="top" secondItem="xNu-tI-V98" secondAttribute="bottom" constant="65" id="Cf8-VI-W0t"/>
                             <constraint firstItem="J2e-3A-VTs" firstAttribute="leading" secondItem="rtR-I0-Kgn" secondAttribute="trailing" constant="-97" id="FKh-4Y-nIc"/>
                             <constraint firstItem="rtR-I0-Kgn" firstAttribute="top" secondItem="wZ7-Tq-IvP" secondAttribute="bottom" constant="-98" id="Is6-n4-pUY"/>
                             <constraint firstItem="rtR-I0-Kgn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KJO-5I-6fo"/>
                             <constraint firstItem="vxT-4v-elw" firstAttribute="leading" secondItem="rtR-I0-Kgn" secondAttribute="trailing" constant="-210" id="NhI-73-ciD"/>
                             <constraint firstItem="ecx-Sd-FsW" firstAttribute="top" secondItem="rtR-I0-Kgn" secondAttribute="bottom" constant="-97" id="Stu-76-Mnj"/>
+                            <constraint firstItem="mu6-z8-qm5" firstAttribute="trailing" secondItem="Lwd-iy-NzM" secondAttribute="trailing" id="Znx-3z-lUo"/>
                             <constraint firstItem="rtR-I0-Kgn" firstAttribute="leading" secondItem="XM7-9C-X8t" secondAttribute="trailing" constant="-98" id="ZpJ-nO-Uyn"/>
                             <constraint firstItem="Lwd-iy-NzM" firstAttribute="leading" secondItem="rtR-I0-Kgn" secondAttribute="trailing" constant="-97" id="azw-JQ-P2D"/>
                             <constraint firstItem="rtR-I0-Kgn" firstAttribute="top" secondItem="HGL-kl-8hq" secondAttribute="bottom" constant="-98" id="dUb-Pa-19p"/>
@@ -142,11 +151,14 @@
                             <constraint firstItem="Lwd-iy-NzM" firstAttribute="top" secondItem="rtR-I0-Kgn" secondAttribute="bottom" constant="-210" id="odo-69-y52"/>
                             <constraint firstItem="rtR-I0-Kgn" firstAttribute="top" secondItem="xNu-tI-V98" secondAttribute="bottom" constant="-98" id="s9W-ao-euP"/>
                             <constraint firstItem="XM7-9C-X8t" firstAttribute="top" secondItem="rtR-I0-Kgn" secondAttribute="bottom" constant="-97" id="sOq-tp-ajU"/>
+                            <constraint firstItem="mu6-z8-qm5" firstAttribute="centerY" secondItem="B8h-eK-EdE" secondAttribute="centerY" id="tTb-ry-QHl"/>
                             <constraint firstItem="J2e-3A-VTs" firstAttribute="top" secondItem="rtR-I0-Kgn" secondAttribute="bottom" constant="-97" id="wgI-JH-tCo"/>
+                            <constraint firstItem="mu6-z8-qm5" firstAttribute="leading" secondItem="B8h-eK-EdE" secondAttribute="leading" id="wiD-8f-xxr"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="button" destination="wZ7-Tq-IvP" id="Si2-Fi-7YN"/>
+                        <outlet property="gameOverLabel" destination="mu6-z8-qm5" id="zxD-2O-r1n"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
